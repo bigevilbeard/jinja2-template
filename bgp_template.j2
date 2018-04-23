@@ -1,0 +1,6 @@
+router bgp {{local_asn}}
+ neighbor {{bgp_neighbor}} remote-as {{remote_asn}}
+ !
+ address-family ipv4
+  neighbor {{bgp_neighbor}} activate
+ exit-address-family
