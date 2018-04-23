@@ -1,3 +1,12 @@
+#!/usr/bin/env python
+
+##############################################################
+# Network Automation Template Configurations
+# Author: Stuart Clark <stuaclar@cisco.com>
+#
+# https://blogs.cisco.com/developer/network-automation-template-configurations
+##############################################################
+
 from jinja2 import Environment, FileSystemLoader
 
 #This line uses the current directory
